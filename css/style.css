@@ -55,17 +55,29 @@ h2 {
 }
 
 #Filia {
-    width: 300px;
+    width: 376px;
     height: auto;
 
 }
 
 #galeria {
     display: flex;
-    gap: 50px;
+    gap: 62px;
+    flex-wrap: wrap;
 }
 
 .card-imagens {
-    width: 20%;
+    width: 30%;
     background-color: yellow;
+}
+
+#squigly {
+    width: 376px;
+    height: 376px;
+}
+
+#fortune {
+    width: 376px;
+    height: 376px;
+
 }
