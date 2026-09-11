@@ -6,6 +6,7 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif;
+    background-color: aqua;
 }
 
 header {
@@ -51,19 +52,15 @@ h2 {
 
 #section-lutadores {
     margin: 0px 50px;
-    background-color: blue;
-}
-
-#Filia {
-    width: 376px;
-    height: auto;
-
+    background-color: rgb(255, 0, 242);
 }
 
 #galeria {
+    margin: 0px 50px;
     display: flex;
     gap: 62px;
     flex-wrap: wrap;
+    background-color: rgb(255, 4, 4);
 }
 
 .card-imagens {
@@ -71,13 +68,15 @@ h2 {
     background-color: yellow;
 }
 
-#squigly {
+.imagens {
     width: 376px;
     height: 376px;
 }
 
-#fortune {
-    width: 376px;
-    height: 376px;
-
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
 }
