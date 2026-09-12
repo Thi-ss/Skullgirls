@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Oswald', sans-serif;
     background-color: aqua;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 
-.paragrafo-header {
+.paragrafo-vermelho {
     color: red;
     text-transform: uppercase;
 }
@@ -33,20 +33,25 @@ nav {
     align-items: center;
 }
 
-h2 {
-    font-size: 70px;
+#intro {
+    margin-top: 20px;
 }
 
-#main-section {
+h2 {
+    font-size: 80px;
+    font-family:unset;
+}
+
+#intro-section {
     background-color: rgb(234, 255, 0);
-    padding: 30px;
+    padding: 70px 30px;
     display: flex;
-    gap: 150px;
+    gap: 200px;
     margin: 50px 30px;
 }
 
 #capa-jogo {
-    width: 300px;
+    width: 60%;
     height: auto;
 }
 
@@ -56,7 +61,7 @@ h2 {
 }
 
 #galeria {
-    margin: 0px 50px;
+    margin:50px;
     display: flex;
     gap: 62px;
     flex-wrap: wrap;
@@ -66,11 +71,25 @@ h2 {
 .card-imagens {
     width: 30%;
     background-color: yellow;
+    overflow: hidden;
+    
 }
 
+.card-imagens h3 {
+    padding: 20px 20px 0px 20px;
+}
+
+.card-imagens p {
+    padding: 10px 20px 20px 20px;
+}
+
+
 .imagens {
-    width: 376px;
-    height: 376px;
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    
+
 }
 
 footer {
