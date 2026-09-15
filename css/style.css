@@ -72,13 +72,13 @@ h2 {
 #galeria {
     margin: 50px;
     display: flex;
-    gap: 62px;
+    gap: 66px;
     flex-wrap: wrap;
     background-color: #2A1B35;
 }
 
 .card-imagens {
-    width: 30%;
+    width: 29.5%;
     background-color: #c6fdff;
     overflow: hidden;
 
